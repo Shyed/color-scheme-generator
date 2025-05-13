@@ -12,19 +12,13 @@ Generate beautiful color schemes based on any base color using [The Color API](h
 - HTML, CSS, JavaScript
 - TheColorAPI (no auth needed)
 
-## Screenshot
-![Color Scheme Generator Screenshot](screenshots/color-scheme.png)
-
-## Setup
-1. Clone the repository
-2. Open `index.html` in your browser
-
-## Live Demo
-[View Live](#) (insert GitHub Pages link here)
-
 ## Project Structure
 color-scheme-generator/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+
+Author
+Created by Sheila Demonteverde  
+Junior Software Engineering Student at Penn State World Campus

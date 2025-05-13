@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Scheme Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Main title -->
+  <h1>Color Scheme Generator</h1>
+
+  <!-- Color and scheme selection controls -->
+  <div class="controls">
+    <!-- Input: Base color picker -->
+    <input type="color" id="base-color" value="#ff6f61" />
+
+    <!-- Dropdown: Scheme type options -->
+    <select id="scheme-type">
+      <option value="monochrome">Monochrome</option>
+      <option value="analogic">Analogous</option>
+      <option value="complement">Complementary</option>
+      <option value="triad">Triad</option>
+      <option value="quad">Quad</option>
+    </select>
+
+    <!-- Button: Generate color scheme -->
+    <button id="generate-btn">Generate</button>
+  </div>
+
+  <!-- Output: Color scheme preview area -->
+  <div id="color-scheme" class="color-scheme"></div>
+
+  <!-- JavaScript functionality -->
+  <script src="script.js"></script>
+</body>
+</html>
